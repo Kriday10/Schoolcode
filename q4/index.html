@@ -9,16 +9,20 @@
             background-color: #000000; /* Black background color */
             font-family: 'Times New Roman', serif; /* Font type */
             color: #FF0000; /* Red text color */
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
         }
 
-        h1 {
+                h1 {
             color: #0000FF; /* Blue heading color */
             text-shadow: 2px 2px 4px #000000; /* Heading shadow */
-            transform: rotate(5deg); /* 2D transform feature - Rotate heading slightly */
+            transform: rotate(-5deg); /* 2D transform feature - Rotate heading slightly */
+            margin-bottom: 100px; /* Adjusted margin-top to separate heading from text */
         }
 
         p {
             font-weight: bold; /* Bold text */
+            margin-bottom: 20px; /* Add margin to create space between paragraphs */
         }
 
         a {
@@ -28,6 +32,8 @@
 
         a:hover {
             text-decoration: underline; /* Underline on hover */
+            color: #008000; /* Green text color on hover */
+            transition: 0.5s; /* Smooth transition effect */
         }
     </style>
 </head>
